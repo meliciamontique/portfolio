@@ -343,6 +343,7 @@ a:hover, a:active, a:focus {
 #about .col-md-6 {
   padding-top: 22px;
   padding-bottom: 32px;
+    color: #FF9683;
 }
 
 #about .col-md-6 img {
@@ -442,6 +443,16 @@ a:hover, a:active, a:focus {
 
 #contact input[type="submit"]:hover {
   background: #333;
+}
+
+
+.container1 {
+    display: flex;
+}
+
+#radio-1 {
+    
+  display:none;
 }
 
 
@@ -781,5 +792,13 @@ footer .footer-copyright {
     padding-bottom: 60px;
   }
 
+}
+
+#datepicker {
+    display: flex;
+    }
+
+.col-md-4 col-sm-4 {
+    display: inline;
 }
 
